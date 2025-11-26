@@ -26,7 +26,7 @@ const Navbar = () => {
               <NavLink to="/projects" className={linkClass}>Projects</NavLink>
             </li>
             <li>
-              <a href="https://drive.google.com/file/d/1U_731ozyKaIZwWequ_mff0s-c6J-LqeC/view?usp=drive_link" target="_blank" className={linkClass}>Resume</a>
+              <a href="https://drive.google.com/file/d/1N8y8ec84wxRzxanllozGMCQ5EbekSDS4/view?usp=drive_link" target="_blank" className={linkClass}>Resume</a>
             </li>
             <li>
               <button className="text-xl">

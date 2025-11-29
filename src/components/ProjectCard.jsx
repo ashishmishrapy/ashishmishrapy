@@ -1,4 +1,6 @@
-const ProjectCard = ({name, summary, title, link}) => {
+import { Link } from "react-router-dom"
+
+const ProjectCard = ({name, summary, title, link, completed}) => {
   return (
     <div>
         <div className='bg-gray-900 rounded-2xl'>
@@ -10,7 +12,12 @@ const ProjectCard = ({name, summary, title, link}) => {
               <em className='text-zinc-500'>{summary}</em>
             </div>
             <h1 className='text-center pt-2 text-white'>{title}</h1>
-            <a className='block text-center hover:text-blue-500 pb-2 text-(--grey) italic' target='_blank' href={link}>[Link]</a>
+            {
+              completed ? 
+                <a className='block text-center hover:text-blue-500 pb-2 text-(--grey) italic' target='_blank' href={link}>[Link]</a> :
+                <Link className='block text-center hover:text-blue-500 pb-2 text-(--grey) italic' to="/construction">[Constructing]</Link>
+
+            }
         </div>
     </div>
   )

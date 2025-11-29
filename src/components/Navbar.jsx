@@ -56,7 +56,7 @@ const Navbar = () => {
             <NavLink to="/projects" className={linkClass} onClick={() => setMenu(false)}>Projects</NavLink>
           </li>
           <li>
-            <NavLink to="/blog" className={linkClass} onClick={() => setMenu(false)}>Resume</NavLink>
+            <a href="https://drive.google.com/file/d/1MOPR1z6kaQy0cMPuFCb7jR0McbYC1FNn/view?usp=drive_link" onClick={() => setMenu(false)}>Resume</a>
           </li>
         </ul>
       </nav>

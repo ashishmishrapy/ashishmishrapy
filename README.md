@@ -1,86 +1,61 @@
-# 🚀 My Personal Portfolio
+# Hi there, I'm Ashish Mishra 👋
 
-## ✨ Overview
+🚀 **Software Developer | MCA Student | Passionate about Full-Stack Development**
 
-This is my personal portfolio website, designed to showcase my skills, experience, and projects as a developer. Built with modern web technologies for a fast, responsive, and aesthetically pleasing user experience.
-
-## 💻 Tech Stack
-
-The project is built using the following core technologies:
-
-| Technology | Description |
-| :--- | :--- |
-| **React** | A JavaScript library for building user interfaces. |
-| **Tailwind CSS** | A highly customizable, utility-first CSS framework. |
-| **React Router** | Used for dynamic routing and navigation between sections. |
-| **Vite** (or **Create React App**) | The build tool/setup used for the React environment. |
-
-## 📁 Sections Included
-
-The portfolio is structured into several key sections:
-
-* **About Me:** A detailed introduction to my background and professional goals.
-* **Skills:** A breakdown of my technical proficiency (languages, frameworks, tools).
-* **Projects:** Demos and descriptions of key projects I have worked on.
-* **Experience:** A timeline of my professional work history.
-* **Resume:** A link or embedded view of my current CV/resume.
-
-## ⚙️ Installation and Setup
-
-Follow these steps to get a local copy of the project up and running.
-
-### Prerequisites
-
-* Node.js (LTS version recommended)
-* npm or yarn
-
-### Steps
-
-1.  **Clone the repository:**
-    ```bash
-    git clone [YOUR_REPO_LINK_HERE]
-    cd [YOUR_REPO_FOLDER_NAME]
-    ```
-
-2.  **Install dependencies:**
-    ```bash
-    npm install
-    # OR
-    yarn install
-    ```
-
-3.  **Run the project locally:**
-    ```bash
-    npm run dev
-    # OR
-    yarn dev
-    ```
-
-4.  **View the site:**
-    The application should now be running on `http://localhost:5173/` (or a similar port).
-
-## 💡 Usage
-
-This project is a static portfolio site. Once running, you can:
-
-* Navigate between sections (About, Skills, Projects, etc.) using the navigation bar.
-* Click on project cards to view details or live demos.
-* Download or view the linked resume.
-
-## 🤝 Contributing
-
-While this is a personal portfolio, I welcome suggestions and bug reports!
-
-1.  Fork the repository.
-2.  Create a new feature branch (`git checkout -b feature/AmazingFeature`).
-3.  Commit your changes (`git commit -m 'Add some AmazingFeature'`).
-4.  Push to the branch (`git push origin feature/AmazingFeature`).
-5.  Open a Pull Request.
-
-## 📄 License
-
-Distributed under the **MIT License**. See `LICENSE` for more information.
+I’m a results-driven and enthusiastic developer with a strong foundation in computer science.  
+I love building modern web applications, solving real-world problems, and exploring emerging technologies.
 
 ---
 
-<p align="center">Made with ❤️ and Code</p>
+## 🔧 Tech Stack
+
+- **Languages**: JavaScript (Advanced), Python (Intermediate), Java (Intermediate)  
+- **Frontend**: HTML, CSS, React.js, Tailwind CSS  
+- **Backend**: Node.js, Express.js, MongoDB, SQL, REST APIs, WebSocket  
+- **Tools & Platforms**: Git, GitHub, Postman, VSCode
+
+---
+
+## 📌 Projects
+
+### [DBUU Connect](https://dbuuconnect.vercel.app/)  
+🔹 A secure, real-time chat app with multiple purpose-driven rooms.  
+- WebSocket-powered chats across 3 dedicated rooms for focused interactions.  
+- Secure login for privacy and safe conversations.  
+- Built with **React Router DOM + Node.js + WebSocket**.  
+
+---
+
+### [Reelify – Instagram Reels Downloader](https://reelify-frontend-ptcj.onrender.com)  
+🔹 A web app to download Instagram Reels using API integration.  
+- Frontend in **React + Axios** for smooth UI and API handling.  
+- Backend in **Node.js + Express** for secure request processing.  
+- Learned React fundamentals, API integration, and backend data handling.  
+
+---
+
+## 🎓 Education
+
+- **MCA**, Dev Bhoomi Institute Of Technology And Engineering (2024 – Expected 2026)  
+- **B.Sc in Information Technology**, University of Mumbai (2021 – 2024)  
+
+---
+
+## 💼 Internship Experience
+
+**Web Developer Intern – NPM Infotech, Pune (Jun 2025 – Jul 2025)**  
+- Built responsive landing pages using HTML, CSS, and Bootstrap.  
+- Learned Shopify development & client-specific customization.  
+- Collaborated with clients via Google Meet for requirement gathering.  
+
+---
+
+## 🌐 Connect With Me
+
+- 📧 Email: [ashish.work.contact@gmail.com](mailto:ashish.work.contact@gmail.com)  
+- 💼 LinkedIn: [linkedin.com/in/ashishbmishra](https://www.linkedin.com/in/ashishbmishra/)  
+- 🖥️ GitHub: [github.com/ashishmishrapy](https://github.com/ashishmishrapy)  
+
+---
+
+⭐️ *“Always eager to learn, build, and share knowledge with the developer community.”*  

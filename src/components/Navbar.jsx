@@ -26,7 +26,7 @@ const Navbar = () => {
               <NavLink to="/projects" className={linkClass}>Projects</NavLink>
             </li>
             <li>
-              <a href="https://drive.google.com/file/d/1zSm_VGMZkBUAnXPRmZeZogbyT6ki3Z-O/view?usp=drive_link" target="_blank">Resume</a>
+              <a href="https://drive.google.com/file/d/1Ly4mWh8nsXZ6wszH6qdDJS6pI8UMafbL/view?usp=drive_link" target="_blank">Resume</a>
             </li>
           </ul>
         </nav>
@@ -56,7 +56,7 @@ const Navbar = () => {
             <NavLink to="/projects" className={linkClass} onClick={() => setMenu(false)}>Projects</NavLink>
           </li>
           <li>
-            <a href="https://drive.google.com/file/d/1zSm_VGMZkBUAnXPRmZeZogbyT6ki3Z-O/view?usp=drive_link" onClick={() => setMenu(false)}>Resume</a>
+            <a href="https://drive.google.com/file/d/1Ly4mWh8nsXZ6wszH6qdDJS6pI8UMafbL/view?usp=drive_link" onClick={() => setMenu(false)}>Resume</a>
           </li>
         </ul>
       </nav>

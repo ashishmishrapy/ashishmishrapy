@@ -10,3 +10,18 @@
 body{
   background-color: var(--bg);
 }
+
+
+.rotating-border {
+  position: absolute;
+  inset: -2px;
+  border-radius: 100%;
+  background: conic-gradient(#2453ff, #fd0000, #2453ff);
+  animation: spin 1s linear infinite;
+  z-index: -1; /* keep behind the image */
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

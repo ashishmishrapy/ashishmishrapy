@@ -4,9 +4,7 @@ const Landing = () => {
   return (
     <div className="min-h-screen pt-[72px] flex flex-col items-center justify-center">
       <h1 className="text-white lg:text-[40px] text-[30px] mb-5">Hey 👋 I'm</h1>
-      <div className="relative w-[200px] h-[200px] lg:w-[250px] lg:h-[250px] mb-8">
-        <div className="absolute inset-0 rounded-full rotating-border"></div>
-
+      <div className="w-[200px] h-[200px] lg:w-[250px] lg:h-[250px] mb-8">
         <img
           src="img/pfp-artguru.webp"
           loading="lazy"

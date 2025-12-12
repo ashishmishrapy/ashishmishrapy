@@ -10,7 +10,7 @@ const Projects = () => {
   ]
   return (
     <div className="min-h-screen pt-[75px] p-1 md:px-5">
-      <div className='grid grid-cols-1 md:grid-cols-2 gap-5 lg:grid-cols-4'>
+      <div className='grid p-2 grid-cols-1 md:grid-cols-2 gap-5 lg:grid-cols-4'>
         {
           projectArray.map((project, index)=>(
             <ProjectCard key={index} name ={project.name} summary={project.summary} title={project.title} link={project.link} completed={project.completed} />

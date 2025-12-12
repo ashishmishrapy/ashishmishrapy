@@ -17,7 +17,7 @@ const Landing = () => {
         <span className="block md:inline leading-5">Ashish </span>
         <span>Mishra</span>
       </h2>
-      <h3 className="text-(--grey) mb-5 font-bold text-[20px]">
+      <h3 className="text-[#FE9A00] mb-5 font-bold text-[20px]">
         Web Developer, Mern Stack
       </h3>
       <div className="text-(--grey) text-2xl flex gap-3">

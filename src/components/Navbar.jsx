@@ -9,17 +9,17 @@ const Navbar = () => {
     isActive ? "text-white" : "text-(--grey)";
 
   return (
-    <div className="backdrop-blur-3xl fixed top-0 w-screen">
+    <div className="backdrop-blur-3xl shadow-xl fixed top-0 w-screen">
       <div className="flex justify-between md:px-10 p-5">
-        <h1 className="text-white italic font-bold text-2xl">AM</h1>
+        <h1 className="text-[#FE9A00] italic font-bold text-2xl">AM</h1>
 
         {/* Desktop Menu */}
         <nav className="hidden md:block">
           <ul className="flex gap-5 items-center text-(--grey)">
-            <li>
+            <li className="hover:text-[#FE9A00">
               <NavLink to="/" className={linkClass}>Home</NavLink>
             </li>
-            <li>
+            <li className="hover:text-[#FE9A00">
               <NavLink to="/about" className={linkClass}>About</NavLink>
             </li>
             <li>

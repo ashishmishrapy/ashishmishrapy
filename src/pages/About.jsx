@@ -13,25 +13,25 @@ const About = () => {
         <nav className="flex flex-col gap-2 md:justify-evenly">
           <button
             onClick={() => toggleSection("summary")}
-            className="shadow rounded-2xl px-3 py-1 shadow-black text-(--grey)"
+            className="shadow cursor-pointer hover:text-gray-400 rounded-2xl px-3 py-1 shadow-black text-(--grey)"
           >
             Summary
           </button>
           <button
             onClick={() => toggleSection("experience")}
-            className="shadow rounded-2xl px-3 py-1 shadow-black text-(--grey)"
+            className="shadow cursor-pointer hover:text-gray-400 rounded-2xl px-3 py-1 shadow-black text-(--grey)"
           >
             Experience
           </button>
           <button
             onClick={() => toggleSection("skills")}
-            className="shadow rounded-2xl px-3 py-1 shadow-black text-(--grey)"
+            className="shadow cursor-pointer hover:text-gray-400 rounded-2xl px-3 py-1 shadow-black text-(--grey)"
           >
             Skills
           </button>
           <button
             onClick={() => toggleSection("education")}
-            className="shadow rounded-2xl px-3 py-1 shadow-black text-(--grey)"
+            className="shadow cursor-pointer hover:text-gray-400 rounded-2xl px-3 py-1 shadow-black text-(--grey)"
           >
             Education
           </button>
@@ -41,11 +41,11 @@ const About = () => {
       {/* Summary Section */}
       {activeSection === "summary" && (
         <section id="summary" className="p-2">
-          <h2 className="text-white font-bold text-2xl underline mb-2">
+          <h2 className="text-white font-bold text-2xl mb-2">
             Profile Summary
           </h2>
           <p className="text-(--grey)">
-            I’m Ashish Mishra, a passionate and dedicated MCA student
+            I’m <span className="text-[#FE9A00]"> Ashish Mishra</span>, a passionate and dedicated MCA student
             specializing in Full Stack Development, with a strong focus on the
             MERN stack (MongoDB, Express.js, React.js, and Node.js). I thrive on
             transforming ideas into interactive, scalable, and high-performance
@@ -77,7 +77,7 @@ const About = () => {
       {/* Experience Section */}
       {activeSection === "experience" && (
         <section id="experience" className="p-2">
-          <h2 className="text-white font-bold text-2xl underline mb-2">
+          <h2 className="text-white font-bold text-2xl mb-2">
             Experience
           </h2>
           <p className="text-(--grey)">
@@ -97,7 +97,7 @@ const About = () => {
       {/* Skills Section */}
       {activeSection === "skills" && (
         <section id="skills" className="p-2">
-          <h2 className="text-white font-bold text-2xl underline mb-2">
+          <h2 className="text-white font-bold text-2xl mb-2">
             Skills
           </h2>
           <ul className="list-disc list-inside text-(--grey)">
@@ -113,7 +113,7 @@ const About = () => {
       {/* Education Section */}
       {activeSection === "education" && (
         <section id="education" className="p-2">
-          <h2 className="text-white font-bold text-2xl underline mb-2">
+          <h2 className="text-white font-bold text-2xl mb-2">
             Education
           </h2>
           <div className="text-(--grey) space-y-4">

@@ -6,7 +6,7 @@ const Projects = () => {
     {name: "Portfolio", summary:"A simple portfolio showcasing my projects, skills, and personal information clearly.", title : "Ashish Mishra - Portfolio website", link : "https://ashishmishra-ai.vercel.app/", completed: true},
     {name: "Reelify", summary:"Users submit Instagram reels and instantly receive downloadable videos with metadata.", title : "Reelify - Instagram Video Downloader", link : "https://reelify-frontend-ptcj.onrender.com/", completed: true},
     {name: "DBUUConnect", summary: "DBUU platform helping students connect, chat, discover campus resources easily.", title : "DbuuConnect", link : "https://dbuuconnect.vercel.app/", completed: true},
-    {name: "AI SAAS Project", summary: "AI platform generating blogs, improving resumes, summarizing chats, captioning images.", title : "WriteWise AI", link : "/construction", completed: false},
+    {name: "AI SAAS", summary: "AI platform generating blogs, improving resumes, summarizing chats, captioning images.", title : "WriteWise AI", link : "/construction", completed: false},
   ]
   return (
     <div className="min-h-screen pt-[75px] p-1 md:px-5">

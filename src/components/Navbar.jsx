@@ -6,7 +6,7 @@ const Navbar = () => {
   const [menu, setMenu] = useState(false);
 
   const linkClass = ({ isActive }) =>
-    isActive ? "text-white" : "text-(--grey)";
+    isActive ? "text-[#FE9A00]" : "text-(--grey)";
 
   return (
     <div className="backdrop-blur-3xl shadow-xl fixed top-0 w-screen">
@@ -45,7 +45,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       <nav className={`${menu ? "block" : "hidden"}`}>
-        <ul className="flex flex-col items-center justify-center font-semibold backdrop-blur-md bg-(--bg) absolute w-screen h-[90vh] gap-5 text-(--grey)">
+        <ul className="flex flex-col text-xl items-center justify-center font-semibold backdrop-blur-md bg-(--bg) absolute w-screen h-[90vh] gap-5 text-(--grey)">
           <li>
             <NavLink to="/" className={linkClass} onClick={() => setMenu(false)}>Home</NavLink>
           </li>

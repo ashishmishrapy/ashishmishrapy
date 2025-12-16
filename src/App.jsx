@@ -3,20 +3,19 @@ import Navbar from "./components/Navbar";
 import Landing from "./pages/Landing";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
-import ErrorPage from "./pages/ErrorPage";
-import UnderConstruction from "./pages/UnderConstruction";
+// import Contact from "./pages/Contact";
 
 const App = () => {
   return (
     <>
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Landing />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="construction" element={<UnderConstruction />} />
-        <Route path="*" element={<ErrorPage />} />
-      </Routes>
+      <div className="relative">
+        <Navbar />
+        <div className="fixed blur-[100px] -z-10 bg-blue-600/20 h-150 top-[15%] w-200"></div>
+        <Landing />
+        <About />
+        <Projects />
+        {/* <Contact /> */}
+      </div>
     </>
   );
 };

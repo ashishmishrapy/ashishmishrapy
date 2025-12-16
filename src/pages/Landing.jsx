@@ -2,8 +2,10 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Landing = () => {
   return (
-    <div className="min-h-screen pt-[72px] flex flex-col items-center justify-center">
-      <h1 className="text-white lg:text-[40px] text-[30px] mb-5">Hey 👋 I'm</h1>
+    <section className="min-h-screen pt-[72px] flex flex-col items-center justify-center">
+      <h1 className="text-white lg:text-[40px] text-[30px] mb-5">
+        Hey <span>👋 </span> I'm
+      </h1>
       <div className="w-[200px] h-[200px] lg:w-[250px] lg:h-[250px] mb-8">
         <img
           src="img/pfp-artguru.webp"
@@ -17,18 +19,27 @@ const Landing = () => {
         <span className="block md:inline leading-5">Ashish </span>
         <span>Mishra</span>
       </h2>
-      <h3 className="text-[#FE9A00] mb-5 font-bold text-[20px]">
+      <h3 className="text-blue-600 mb-5 font-bold text-[20px]">
         Web Developer, Mern Stack
       </h3>
-      <div className="text-(--grey) text-2xl flex gap-3">
-        <a href="https://github.com/ashishmishrapy" target="_blank">
-          <FaGithub />
-        </a>
-        <a href="https://www.linkedin.com/in/ashishbmishra/" target="_blank">
-          <FaLinkedin />
-        </a>
+      <div className="flex flex-col mt-5 gap-2 items-center justify-center">
+        <p className="text-gray-400">Looking for a MERN developer?</p>
+        <div className="flex gap-4">
+            <a
+              href="mailto:ashish.work.contact@gmail.com?subject=Hiring%20Inquiry"
+              className="bg-blue-600 text-gray-200 text-sm font-semibold px-3 py-2 hover:scale-105 transition-all ease-in-out duration-500 rounded-md shadow-black"
+            >
+              Hire Me →
+            </a>
+            <a
+              href="#projects"
+              className="border-2 border-blue-600 tracking-tighter text-gray-200 text-sm font-semibold px-3 py-2 hover:scale-105 transition-all ease-in-out duration-500 rounded-md shadow-black"
+            >
+              View Work →
+            </a>
+        </div>
       </div>
-    </div>
+    </section>
   );
 };
 

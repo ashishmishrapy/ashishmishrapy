@@ -59,7 +59,7 @@ const Projects = () => {
         <a
           className="bg-blue-600 transition-all ease-in-out duration-500 text-gray-200 text-sm font-semibold px-3 py-2 hover:scale-105 rounded-md shadow-black"
           target="_blank"
-          href="https://github.com/ashishmishrapy"
+          href="https://github.com/ashishmishrapy?tab=repositories"
         >
           View here →
         </a>

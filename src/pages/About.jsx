@@ -45,10 +45,10 @@ const About = () => {
           </p>
         </div>
       </div>
-      <div className="flex w-full overflow-x-auto mt-7 gap-2">
+      <div className="flex w-full p-2 overflow-x-auto mt-7 gap-2">
         {skills.map((img, index) => (
           <img
-            className="w-15 p-2 border-2 shadow-2xl shadow-blue-600"
+            className="w-15 rounded-lg p-2 border-2 border-white shadow-2xl shadow-blue-600"
             src={img}
             key={index}
           />

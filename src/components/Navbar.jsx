@@ -14,7 +14,7 @@ const Navbar = () => {
         <nav className="hidden md:block">
           <ul className="flex gap-5 items-center text-(--grey)">
             <li className="hover:text-blue-600 hover:scale-105">
-              <a href="/">Home</a>
+              <a href="#">Home</a>
             </li>
             <li className="hover:scale-105 hover:text-blue-600">
               <a href="#about">About</a>

@@ -36,7 +36,7 @@ I love building modern web applications, solving real-world problems, and explor
 
 ## Education
 
-- **MCA**, Dev Bhoomi Institute Of Technology And Engineering (2024 – Expected 2026)  
+- **MCA**, Dev Bhoomi Uttarakhand University (2024 – Expected 2026)  
 - **B.Sc in Information Technology**, University of Mumbai (2021 – 2024)  
 
 ---

@@ -49,12 +49,14 @@ const Contact = () => {
             className="rounded-lg outline-none text-white border-2 inline-block border-blue-600 p-3 placeholder:text-gray-500"
             type="text"
             name="fname"
+            required
             placeholder="First Name"
           />
           <input
             className="rounded-lg outline-none text-white border-2 inline-block border-blue-600 p-3 placeholder:text-gray-500"
             type="text"
             name="lname"
+            required
             placeholder="Last Name"
           />
         </div>
@@ -62,11 +64,13 @@ const Contact = () => {
           className="rounded-lg outline-none text-white border-2 border-blue-600 p-3 placeholder:text-gray-500"
           type="email"
           name="email"
+          required
           placeholder="example@gmail.com"
         />
         <textarea
           className="rounded-lg outline-none overflow-y-auto resize-none h-[150px] text-white border-2 border-blue-600 px-3 py-2 placeholder:text-gray-500"
           name="message"
+          required
           placeholder="Enter your message..."
         />
         <button 

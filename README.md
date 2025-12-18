@@ -1,13 +1,13 @@
 # Hi there, I'm Ashish Mishra 👋
 
-🚀 **Software Developer | MCA Student | Passionate about Full-Stack Development**
+**Software Developer | MCA Student | Passionate about Full-Stack Development**
 
 I’m a results-driven and enthusiastic developer with a strong foundation in computer science.  
 I love building modern web applications, solving real-world problems, and exploring emerging technologies.
 
 ---
 
-## 🔧 Tech Stack
+## Tech Stack
 
 - **Languages**: JavaScript (Advanced), Python (Intermediate), Java (Intermediate)  
 - **Frontend**: HTML, CSS, React.js, Tailwind CSS  
@@ -16,7 +16,7 @@ I love building modern web applications, solving real-world problems, and explor
 
 ---
 
-## 📌 Projects
+## Projects
 
 ### [DBUU Connect](https://dbuuconnect.vercel.app/)  
 🔹 A secure, real-time chat app with multiple purpose-driven rooms.  
@@ -34,14 +34,14 @@ I love building modern web applications, solving real-world problems, and explor
 
 ---
 
-## 🎓 Education
+## Education
 
-- **MCA**, Dev Bhoomi Institute Of Technology And Engineering (2024 – Expected 2026)  
+- **MCA**, Dev Bhoomi Uttarakhand University (2024 – Expected 2026)  
 - **B.Sc in Information Technology**, University of Mumbai (2021 – 2024)  
 
 ---
 
-## 💼 Internship Experience
+## Internship Experience
 
 **Web Developer Intern – NPM Infotech, Pune (Jun 2025 – Jul 2025)**  
 - Built responsive landing pages using HTML, CSS, and Bootstrap.  
@@ -50,12 +50,12 @@ I love building modern web applications, solving real-world problems, and explor
 
 ---
 
-## 🌐 Connect With Me
+## Connect With Me
 
-- 📧 Email: [ashish.work.contact@gmail.com](mailto:ashish.work.contact@gmail.com)  
-- 💼 LinkedIn: [linkedin.com/in/ashishbmishra](https://www.linkedin.com/in/ashishbmishra/)  
-- 🖥️ GitHub: [github.com/ashishmishrapy](https://github.com/ashishmishrapy)  
+- Email: [ashish.work.contact@gmail.com](mailto:ashish.work.contact@gmail.com)  
+- LinkedIn: [linkedin.com/in/ashishbmishra](https://www.linkedin.com/in/ashishbmishra/)  
+- GitHub: [github.com/ashishmishrapy](https://github.com/ashishmishrapy)  
 
 ---
 
-⭐️ *“Always eager to learn, build, and share knowledge with the developer community.”*  
+*“Always eager to learn, build, and share knowledge with the developer community.”*  

@@ -35,7 +35,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="min-h-screen w-full flex justify-center items-center border-t-2 border-blue-600">
+    <section id="contact" className="min-h-screen w-full flex justify-center items-center border-t-2 border-blue-600">
       <form
         ref={formRef}
         onSubmit={sendEmail}
@@ -82,7 +82,7 @@ const Contact = () => {
           {status === "error" && "Failed "}
         </button>
       </form>
-    </div>
+    </section>
   );
 };
 

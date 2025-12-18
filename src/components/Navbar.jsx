@@ -26,6 +26,9 @@ const Navbar = () => {
             <li className="hover:text-blue-600 hover:scale-105">
               <a href="#projects">Projects</a>
             </li>
+            <li className="hover:text-blue-600 hover:scale-105">
+              <a href="#contact">Contact</a>
+            </li>
             <li className="hover:scale-105 hover:text-blue-600">
               <a
                 href="https://drive.google.com/file/d/1tIOB7AmmV8tuXoH4nP6AJ17ahotXHFkL/view?usp=drive_link"
@@ -61,6 +64,11 @@ const Navbar = () => {
           <li>
             <a href="#projects" onClick={() => setMenu(false)}>
               Projects
+            </a>
+          </li>
+          <li>
+            <a href="#contact" onClick={() => setMenu(false)}>
+              Contact
             </a>
           </li>
           <li>

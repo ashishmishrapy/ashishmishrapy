@@ -2,7 +2,9 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Landing = () => {
   return (
-    <section className="min-h-screen pb-20 pt-[72px] flex flex-col items-center justify-center">
+    <section
+    id="home"
+    className="min-h-screen pb-20 pt-[72px] flex flex-col items-center justify-center">
       <h1 className="text-white lg:text-[40px] text-[30px] mb-5">
         Hey <span>👋 </span> I'm
       </h1>

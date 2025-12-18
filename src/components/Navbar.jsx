@@ -18,7 +18,7 @@ const Navbar = () => {
         <nav className="hidden md:block">
           <ul className="flex gap-5 items-center text-white">
             <li className="hover:text-blue-600 hover:scale-105">
-              <a href="#">Home</a>
+              <a href="#home">Home</a>
             </li>
             <li className="hover:scale-105 hover:text-blue-600">
               <a href="#about">About</a>
@@ -52,7 +52,7 @@ const Navbar = () => {
       <nav className={`${menu ? "block" : "hidden"}`}>
         <ul className="flex flex-col text-xl items-center justify-center font-semibold backdrop-blur-3xl bg-black/97 absolute w-screen h-[90vh] gap-5 text-(--grey)">
           <li>
-            <a href="/" onClick={() => setMenu(false)}>
+            <a href="#home" onClick={() => setMenu(false)}>
               Home
             </a>
           </li>

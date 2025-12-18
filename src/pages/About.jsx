@@ -28,7 +28,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="p-4 md:px-[15%] pt-[72px] border-y-2 flex flex-col justify-center border-y-blue-700 min-h-screen max-h-screen"
+      className="p-4 md:px-[15%] pt-[72px] border-y-2 flex flex-col justify-center border-y-blue-700 min-h-screen"
     >
       <h2 className="text-white font-bold justify-start md:text-[65px] text-[40px] leading-none tracking-tight mb-2">
         Learning Fast. <br /> Adapting Faster<span>.</span>
@@ -45,16 +45,16 @@ const About = () => {
           </p>
         </div>
       </div>
-      <div className="flex w-full p-2 overflow-x-auto mt-7 gap-2">
+      <div className="flex w-full rounded-xl p-2 overflow-x-auto mt-7 gap-2">
         {skills.map((img, index) => (
           <img
-            className="w-15 rounded-lg p-2 border-2 border-white shadow-2xl shadow-blue-600"
+            className="w-12 rounded-lg p-2 border-2 border-white shadow-2xl shadow-blue-600"
             src={img}
             key={index}
           />
         ))}
       </div>
-      <div className="flex flex-col mt-15 gap-2 items-center justify-center">
+      <div className="flex flex-col mt-15 md:pb-0 pb-15 gap-2 items-center justify-center">
         <p className="text-gray-400">Want to know more?</p>
         <a
           className="bg-blue-600 transition-all ease-in-out duration-500 text-gray-200 text-sm font-semibold px-3 py-2 hover:scale-105 rounded-md shadow-black"

@@ -1,9 +1,8 @@
-import { Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Landing from "./pages/Landing";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
-// import Contact from "./pages/Contact";
+import Contact from "./pages/Contact";
 
 const App = () => {
   return (
@@ -14,7 +13,7 @@ const App = () => {
         <Landing />
         <About />
         <Projects />
-        {/* <Contact /> */}
+        <Contact />
       </div>
     </>
   );

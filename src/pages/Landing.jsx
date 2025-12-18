@@ -19,8 +19,8 @@ const Landing = () => {
         <span className="block md:inline leading-5">Ashish </span>
         <span>Mishra</span>
       </h2>
-      <h3 className="text-blue-600 mb-5 font-bold text-[20px]">
-        Web Developer, Mern Stack
+      <h3 className="text-blue-600 text-center mb-5 font-bold text-[20px]">
+        Student, Full Stack Development
       </h3>
       <div className="flex flex-col mt-5 gap-2 items-center justify-center">
         <p className="text-gray-400">Looking for a MERN developer?</p>

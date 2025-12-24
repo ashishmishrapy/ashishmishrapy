@@ -31,7 +31,7 @@ const Navbar = () => {
             </li>
             <li className="hover:scale-105 hover:text-blue-600">
               <a
-                href="https://drive.google.com/file/d/1tIOB7AmmV8tuXoH4nP6AJ17ahotXHFkL/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1oIZMxbleGXP-b6uFXB-pX0qHoM1lZ8mG/view?usp=drive_link"
                 target="_blank"
               >
                 Resume
@@ -73,7 +73,7 @@ const Navbar = () => {
           </li>
           <li>
             <a
-              href="https://drive.google.com/file/d/1tIOB7AmmV8tuXoH4nP6AJ17ahotXHFkL/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1oIZMxbleGXP-b6uFXB-pX0qHoM1lZ8mG/view?usp=drive_link"
               onClick={() => setMenu(false)}
             >
               Resume
